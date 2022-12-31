@@ -4,3 +4,10 @@ this is also why in set.lua the clipboard is set with unnamedplus
 
 required package: ripgrep
 https://github.com/BurntSushi/ripgrep
+
+Delete old nvim setups:
+```bash
+rm -rf nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+```
