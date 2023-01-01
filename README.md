@@ -5,6 +5,9 @@ this is also why in set.lua the clipboard is set with unnamedplus
 required package: ripgrep
 https://github.com/BurntSushi/ripgrep
 
+required package: packer
+https://github.com/wbthomason/packer.nvim
+
 Delete old nvim setups:
 ```bash
 rm -rf nvim
