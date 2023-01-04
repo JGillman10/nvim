@@ -20,9 +20,9 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 
 vim.keymap.set("n", "<leader>P", [["+p]])
 
-vim.keymap.set("n", "<leader>n", "<cmd>bn<CR>")                        -- Next buffer in buffer list
-vim.keymap.set("n", "<leader>p", "<cmd>bp<CR>")                        -- Previous buffer in buffer list
 vim.keymap.set("n", "<A-b>", "<cmd>e #<CR>")                           -- Switch to last loaded buffer
 
 vim.keymap.set("n", "<A-h>", "<C-w>h")                                 -- Switch to window on left
 vim.keymap.set("n", "<A-l>", "<C-w>l")                                 -- Switch to window on right
+
+vim.keymap.set("t", "<A-q>", "<C-\\><C-n>")                             -- switch to normal mode when in terminal
