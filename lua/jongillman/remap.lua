@@ -1,3 +1,4 @@
+vim.g.mapleader = " "                                               -- remap leader to space
 vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)                       -- go to vim file tree
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")                        -- move highlighted text down
