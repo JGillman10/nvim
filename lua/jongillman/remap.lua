@@ -1,3 +1,4 @@
+vim.g.mapleader = " "                                               -- remap leader to space
 vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)                       -- go to vim file tree
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")                        -- move highlighted text down
@@ -22,7 +23,7 @@ vim.keymap.set("n", "<leader>P", [["+p]])
 
 vim.keymap.set("n", "<A-b>", "<cmd>e #<CR>")                           -- Switch to last loaded buffer
 
-vim.keymap.set("n", "<A-h>", "<C-w>h")                                 -- Switch to window on left
-vim.keymap.set("n", "<A-l>", "<C-w>l")                                 -- Switch to window on right
+vim.keymap.set("n", "<C-h>", "<C-w>h")                                 -- Switch to window on left
+vim.keymap.set("n", "<C-l>", "<C-w>l")                                 -- Switch to window on right
 
 vim.keymap.set("t", "<A-q>", "<C-\\><C-n>")                             -- switch to normal mode when in terminal
